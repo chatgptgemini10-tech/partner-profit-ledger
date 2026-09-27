@@ -1,0 +1,10 @@
+PRAGMA foreign_keys = OFF;
+DROP TABLE IF EXISTS audit_logs;
+DROP TABLE IF EXISTS ledger_entries;
+DROP TABLE IF EXISTS profit_allocations;
+DROP TABLE IF EXISTS profit_periods;
+DROP TABLE IF EXISTS transactions;
+DROP TABLE IF EXISTS settings_history;
+DROP TABLE IF EXISTS settings;
+DROP TABLE IF EXISTS users;
+PRAGMA foreign_keys = ON;

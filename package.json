@@ -1,0 +1,16 @@
+{
+  "name": "partner-profit-ledger",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Internal partner profit and withdrawal ledger for Azam and Waseem",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "migrate": "node src/migrate.js",
+    "seed": "node src/seed.js",
+    "rollback": "node src/rollback.js",
+    "test": "node --test",
+    "check": "node --check src/server.js && node --check src/db.js && node --check src/accounting.js && node --check src/auth.js"
+  }
+}
